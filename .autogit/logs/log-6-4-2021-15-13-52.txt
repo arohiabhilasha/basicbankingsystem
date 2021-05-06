@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu May 06 2021 15:13:52 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* home.html
+
+
+Created files:
+* .autogit/logs/log-2-4-2021-16-59-31.txt
+
+
+Deleted files:
+
+
+Renamed files:

@@ -1,13 +1,8 @@
-html{
-    background-color: black;
-}
-
-    section{
-    /*text-align: center;*/
-    color: red !important; 
-}
 
 .footer{
     font-family: 'Courier New', Courier, monospace;
-    position: absolute;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px; 
 }

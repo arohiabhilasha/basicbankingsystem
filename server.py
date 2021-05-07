@@ -7,4 +7,8 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 def index():
     return render_template("index.html")
 
+@app.route('/customer')
+def index():
+    return render_template("customer.html")
+
 app.run()

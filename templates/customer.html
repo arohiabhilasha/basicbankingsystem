@@ -1,0 +1,20 @@
+{% extends 'home.html' %}
+{% block content %}
+<body>
+    <h1 class="lead">
+        List of all customers
+    </h1><br><br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Balance</th>
+        </tr>
+        {% for i in arrayx %}
+        <tr>
+            <td>{{i}}</td>
+            <td>{{arrayx[i]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+{% endblock %}

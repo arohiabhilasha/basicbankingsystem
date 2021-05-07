@@ -1,4 +1,13 @@
-section{
-    text-align: center;
-    background-color: beige;
+html{
+    background-color: black;
+}
+
+    section{
+    /*text-align: center;*/
+    color: red !important; 
+}
+
+.footer{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
 }

@@ -1,20 +1,6 @@
 {% extends 'home.html' %} 
 {% block content %}
-<link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
-<section class="welcome">
-    <p class="lead">Welcome to</p>
-    <h1>THE TSF BANK</h1>
-</section>
-<section class="action"> 
-    <p>Choose an action</p>
-    <div class="d-grid gap-2 d-md-block">
-      <button type="button" class="btn btn-primary btn-sm">Make payment</button>
-      <button type="button" class="btn btn-secondary btn-sm">View customers to pay</button>
-    </div>
-</section>
-<footer class="footer">
-    Project for The Sparks Foundation &copy;2021
-</footer>
+<!--link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}"!-->
 <style>
     .footer {
         position: fixed;
@@ -27,13 +13,33 @@
     .welcome{
         padding: 2em;
         margin: 1em;
+        background-color: beige;
+        text-align: center;
     }
     .action{
         margin: 1em;
-        padding-bottom: 20em;
+        padding: 5em 0em 15em 0em;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: large;
-        font-style:inherit;
+        font-style: inherit;
+        background-color: beige;
+        text-align: center;
     }
 </style> 
+<section class="welcome">
+    <p class="lead">Welcome to</p>
+    <h1>THE TSF BANK</h1>
+    <img src="https://cdn.nohat.cc/thumb/f/720/comvecteezy348687.jpg">
+</section>
+<section class="action"> 
+    <p>CHOOSE AN ACTION</p>
+    <div class="d-grid gap-2 d-md-block">
+      <button type="button" class="btn btn-primary btn-sm">Make payment</button>
+      <button type="button" class="btn btn-secondary btn-sm">View customers to pay</button>
+    </div>
+</section>
+<footer class="footer">
+    Project for The Sparks Foundation &copy;2021
+</footer>
+
 {% endblock %}

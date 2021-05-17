@@ -9,7 +9,7 @@ def index():
 
 @app.route('/customer')
 def cust():
-    customer = {"Abhinav":3000, "Ritul":50000, "Abhilasha": 20000, "Vaibhav": 12000}
+    customer = {"Abhinav":3000000, "Ritul":50000, "Abhilasha": 20000, "Vaibhav": 12000}
     return render_template("customer.html", arrayx=customer)
 
 app.run()
